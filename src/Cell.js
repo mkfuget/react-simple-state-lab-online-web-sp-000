@@ -17,7 +17,7 @@ export default class Cell extends Component {
     return (
       <div
         className="cell"
-        onClick = {this.handleClick}
+        onClick = {this.handleClick()}
         style={{backgroundColor: this.state.color}}
       >
 
