@@ -4,7 +4,7 @@ export default class Cell extends Component {
   constructor(props) {
     super()
     this.state = {
-      color: prop
+      color: props.color
     } // ...define initial state with a key of 'color' set to the 'value' prop
   }
 
