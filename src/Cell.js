@@ -7,5 +7,15 @@ export default class Cell extends Component {
       color: props.color
     } // ...define initial state with a key of 'color' set to the 'value' prop
   }
+  render() {
+    return (
+      <div
+        onClick = {this.handleClick}
+        style={{backgroundColor: this.state}}
+      >
+
+      </div>
+    )
+  }
 
 }
