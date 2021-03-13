@@ -17,7 +17,7 @@ export default class Matrix extends Component {
       </div>
     )
   }
-  Matrix.defaultProps = {
-    color: '#F00'
-  }
+}
+Matrix.defaultProps = {
+  color: '#F00'
 }
