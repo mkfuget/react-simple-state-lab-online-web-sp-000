@@ -7,11 +7,10 @@ export default class Cell extends Component {
       color: props.value
     } // ...define initial state with a key of 'color' set to the 'value' prop
   }
-  handleClick = () =>
-  {
-    this.setState = () => {
+  handleClick = () =>{
+    this.setState(){
       color: '#333'
-    }
+    })
   }
   render() {
     return (
