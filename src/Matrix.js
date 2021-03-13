@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Cell from './Cell'
 export default class Matrix extends Component {
   
   genRow = (vals) => {
@@ -17,5 +17,7 @@ export default class Matrix extends Component {
       </div>
     )
   }
-  
+  Matrix.defaultProps = {
+    color: '#F00'
+  }
 }
