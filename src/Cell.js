@@ -4,12 +4,12 @@ export default class Cell extends Component {
   constructor(props) {
     super()
     this.state = {
-      color: props.value
+      colorTest: props.value
     } // ...define initial state with a key of 'color' set to the 'value' prop
   }
   handleClick = () =>{
     this.setState({
-      color: '#333'
+      colorTest: '#333'
     })
   }
   render() {
@@ -17,7 +17,7 @@ export default class Cell extends Component {
       <div
         className="cell"
         onClick = {this.handleClick}
-        style={{backgroundColor: this.state.color}}
+        style={{backgroundColor: this.state.colorTest}}
       >
 
       </div>
