@@ -9,9 +9,9 @@ export default class Cell extends Component {
   }
   handleClick = () =>
   {
-    this.state = {
+    this.setState() => {
       color: '#333'
-    }
+    })
   }
   render() {
     return (
