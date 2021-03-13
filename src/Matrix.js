@@ -3,7 +3,7 @@ import Cell from './Cell'
 export default class Matrix extends Component {
 
   genRow = (vals) => {
-    return vals.map(val => <Cell color={val}/>) // replace me and render a cell component instead!
+    return vals.map(val => <Cell value={val}/>) // replace me and render a cell component instead!
   }
 
   genMatrix = () => {
